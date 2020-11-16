@@ -1,0 +1,246 @@
+ <!DOCTYPE html>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="eng">
+
+<head>
+<title> Customer Crowned 3 </title>
+
+<style type="text/css">
+
+ body                                           {bakrgound: beige;
+                                                 margin:0;
+ }
+
+header                                          {
+                                                 height:150px;
+                                                 background-color: gray;
+                                                 border-bottom: 3px solid orangered;
+                                                }
+
+/************using wrapper to lay out the header brabding and nav attributes  ****/
+
+    .wrapper                                    {
+                                                 display: flex;
+                                                 justify-content: space-between;
+                                                 margin: auto;
+                                                 align-items:center;
+                                                 width: 90%;
+                                                 color: white;
+                                                }
+
+/* using continer to lay out the form input inquiry section  **/
+
+    .container                                  {
+                                                 display: flex;
+                                                 justify-content: center;
+                                                }
+
+  #branding h1                                  {
+                                                 font-size: 50px;
+                                                 text-shadow: 3px 2px orange;
+                                                }
+
+
+  header img                                    {border-radius: 50%;
+                                                 border: 3px solid orangered;
+                                                }
+
+   header nav li                                 {float: left;
+                                                  margin-left: 25px;
+                                                  list-style: none;
+
+                                                 }
+
+  header nav a                                  {font-size: 25px;
+                                                 text-decoration: none;
+
+                                                }
+
+  header nav a:hover                             {font-size: bold;
+                                                  text-decoration: underline;
+                                                  color: blue;
+
+                                                 }
+#showcase                                        {background: yellow;
+                                                  height:450px;
+                                                  width: 100%;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  flex-direction: column;
+                                                 }
+
+#showcase h1                                     {font-size: 40px;
+                                                  height: 1.5;
+                                                  text-align: center;
+                                                 }
+
+#showcase h2                                     {width:630px;
+                                                  text-align: justify;
+                                                  line-height: 200%;
+
+                                                 }
+/*** ***********form section align and other attributes************ *****/
+
+  #inquiry-banner                                {color: blue;
+                                                  font-size: 30px;
+                                                  text-align: center;
+                                                 }
+
+  #form-text                                     {color: dodgerblue;
+                                                 }
+
+  #form-text input                               {width: 250px;
+                                                  padding: 10px;
+
+
+                                                 }
+    .submit                                      {margin-top: 20px;
+                                                  display: flex;
+                                                  justify-content: center;
+
+
+                                                 }
+
+   .button_1                                     {width: 200px;
+                                                  font-size: 20px;
+                                                  padding:10px;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  background: orange;
+                                                  border:0;
+                                                 }
+
+footer                                           {height: 100px;
+                                                  background-color: gray;
+                                                  color: white;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
+                                                  font-size: 20px;
+                                                  margin-top: 30px;
+                                                 }
+
+@media screen and (max-width:1300px) {.wrapper  {flex-direction: column;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                }
+
+               }
+
+@media screen and (max-width:680px)  {#branding .branding-text h1 {font-size: 30px;}
+
+               }
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<header id="branding">
+      <div class="wrapper">
+
+
+
+
+           <div class="branding-text">
+             <h1><img src="customer aim.jfif" width="8%">    CustomerCrowned.Com</h1>
+           </div>
+
+
+
+   <nav>
+
+          <ul>
+               <li><a href="CustomerCrowned3.html">Home</a></li>
+               <li><a href="about-crowned.html">About</a></li>
+               <li><a href="contact-crowned.html">Contact</a></li>
+          </ul>
+
+  </nav>
+
+</div>
+
+
+
+</header>
+
+
+<section id="showcase">
+
+  <div>
+    <h1>We Bring The Customer's Voice To Progressive Companies</h1>
+  </div>
+
+  <div><h2 width="500px"> Our Interactive platform allows the Businesses to find out
+    about what their customers want beyond the current reviews.
+    </h2>
+  </div>
+
+
+
+  </section>
+
+  <section>
+
+
+<form>
+
+     <div id="inquiry-banner">
+       <h1>Customer-Obsessed companies want to hear your voice!</h1>
+     </div>
+
+   <div class="container">
+
+      <div id="form-text">
+        <h1>Company name</h1>
+        <input  name="text" placeholder="................" >
+
+        <h1>Product or Service</h1>
+        <input name="text" placeholder="................" >
+
+        <h1>Suggestion Or Feedback</h1>
+        <input name="text" placeholder="................" >
+
+        <h1>First Name</h1>
+        <input name="text" placeholder="................" >
+
+        <h1>Email  </h1>
+        <input name="text" placeholder="................" >
+      </div>
+
+    </div>
+
+    <div class="submit">
+         <button class="button_1">Submit</button>
+    </div>
+
+
+
+
+
+</form>
+
+
+
+  </section>
+
+  <footer>
+Copyrights &copy; 2020 | All Rights Reserved
+
+  </footer>
+
+
+
+
+
+
+</body>
+
+</html>
